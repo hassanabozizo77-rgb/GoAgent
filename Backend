@@ -1,0 +1,16 @@
+main.py
+from fastapi import FastAPI
+
+app = FastAPI(
+    title="GoAgent",
+    description="AI Execution Platform",
+    version="0.1.0"
+)
+
+@app.get("/")
+def home():
+    return {
+        "name": "GoAgent",
+        "status": "Running",
+        "message": "Welcome to GoAgent 🚀"
+    }
