@@ -196,3 +196,143 @@ Workflow يمكن تشغيله بضغطة واحدة أو بأمر طبيعي.
 - يشرح طريقة التشغيل.
 - يشرح طريقة النشر.
 - ينشئ تقريراً كاملاً.
+- ---
+
+# GoAgent Connect
+
+## Vision
+
+GoAgent Connect هو مركز الربط الموحد الذي يسمح لـ GoAgent بالاتصال بجميع الحسابات والخدمات والتطبيقات التي يحتاجها المستخدم، مع إدارة الصلاحيات والأمان من مكان واحد.
+
+---
+
+## Supported Connections
+
+### AI Providers
+- OpenAI
+- Gemini
+- Claude
+- DeepSeek
+- Grok
+- Future AI Providers
+
+### Development
+- GitHub
+- GitLab
+- Bitbucket
+- Replit
+- Bolt
+
+### Cloud & Hosting
+- Vercel
+- Railway
+- Render
+- Netlify
+- Cloudflare
+
+### Databases
+- Supabase
+- Firebase
+- Airtable
+- PostgreSQL
+- MySQL
+- SQLite
+
+### Productivity
+- Google Drive
+- OneDrive
+- Dropbox
+- Notion
+- Google Docs
+- Google Sheets
+
+### Communication
+- Gmail
+- Outlook
+- Slack
+- Discord
+- Telegram
+- WhatsApp Business (Official Integration)
+
+### Design
+- Canva
+- Figma
+
+---
+
+## Connection Manager
+
+GoAgent can:
+
+- Detect connected accounts.
+- Save approved connections.
+- Reuse them in future projects.
+- Monitor login sessions.
+- Monitor API Keys.
+- Request reconnection when needed.
+- Test every connection before execution.
+
+---
+
+## Permission Control
+
+Before any sensitive action GoAgent displays:
+
+- Account name.
+- Service name.
+- Required permission.
+- Reason for access.
+
+No action is performed without user approval.
+
+---
+
+## Human Assisted Login
+
+If a service requires:
+
+- Manual Login
+- OTP
+- CAPTCHA
+- Email Verification
+- Phone Confirmation
+
+GoAgent will:
+
+1. Open the correct page.
+2. Explain the required action in the user's language.
+3. Wait until the user finishes.
+4. Continue automatically.
+
+---
+
+## Multi Account Support
+
+Supports multiple accounts for the same service:
+
+- Multiple GitHub accounts.
+- Multiple Google accounts.
+- Multiple OpenAI accounts.
+
+GoAgent automatically selects the appropriate account for each project.
+
+---
+
+## Smart Connection Suggestions
+
+If a required service is not connected:
+
+- Recommend connecting it.
+- Explain its benefits.
+- Allow the user to skip optional services.
+
+---
+
+## Connection Security
+
+- End-to-end encrypted credentials.
+- Secure token storage.
+- Permission audit logs.
+- Automatic session expiration detection.
+- User-controlled connection management.
+ 
